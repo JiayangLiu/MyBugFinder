@@ -30,4 +30,21 @@ public class MyBugFinderTest {
         assertTrue(myBugFinder.detectBadStringComparison());
     }
 
+    @org.junit.Test
+    public void implementsCloneableWhenDefinesCloneTest() throws Exception {
+        // test "defines clone() without any interface implemented"
+        String testPatternPath_EC_1 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpatternEC-1.java");
+        myBugFinder.setSourceCode(testPatternPath_EC_1);
+        assertFalse(myBugFinder.implementsCloneableWhenDefinesClone());
+
+        // test "defines clone() but not implements Cloneable"
+        String testPatternPath_EC_2 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpatternEC-2.java");
+        myBugFinder.setSourceCode(testPatternPath_EC_2);
+        assertFalse(myBugFinder.implementsCloneableWhenDefinesClone());
+
+        // test "defines clone() and implements Cloneable"
+        String testPatternPath_EC_3 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpatternEC-3.java");
+        myBugFinder.setSourceCode(testPatternPath_EC_3);
+        assertTrue(myBugFinder.implementsCloneableWhenDefinesClone());
+    }
 }
