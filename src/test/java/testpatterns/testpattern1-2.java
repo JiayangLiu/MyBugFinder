@@ -1,4 +1,4 @@
-class TestPattern1_1 {
+class TestPattern1_2 {
     private static final String STR_1 = "1";
     private static final String STR_2 = "2";
 
