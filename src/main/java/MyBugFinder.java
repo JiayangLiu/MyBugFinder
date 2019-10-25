@@ -76,37 +76,6 @@ class MyBugFinder {
     }
 
     /**
-     * Check if the string literal appeared
-     */
-    private boolean checkStringLiteralExprNode(Node node) {
-        String literal = ((StringLiteralExpr) node).asString();
-        if (stringLiteralSet.contains(literal)) {
-            System.out.println("====== duplicated string literal captured: " +
-                    "[\"" + literal + "\"] ======");
-            return false;
-        } else {
-            stringLiteralSet.add(literal);
-            return true;
-        }
-    }
-
-    /**
-     * Initialization function for loading stringVariableSet
-     */
-    private void loadStringVariableSet() {
-        stringVariableSet = new HashSet<>();
-        compilationUnit.findAll(FieldDeclaration.class).forEach(field -> field.getVariables().forEach(variable -> {
-            // search all CLASS-LEVEL variables with "String" type
-            if (variable.getType().toString().equals("String")) {
-                stringVariableSet.add(variable.getNameAsString());
-                if (isVerboseMode) {
-                    System.out.println("====== New String variable loaded: " + variable.getNameAsString() + " ======");
-                }
-            }
-        }));
-    }
-
-    /**
      * Functionality 1: find BadStringComparison bugs
      * @return BadStringComparison inspection result
      */
@@ -130,24 +99,33 @@ class MyBugFinder {
     }
 
     /**
-     * Initialization function for loading definedMethodSet
+     * Initialization function for loading stringVariableSet
      */
-    private void loadDefinedMethodSet() {
-        definedMethodSet = new HashSet<>();
-        // visit and print the methods names
-        new MethodVisitor().visit(compilationUnit, null);
+    private void loadStringVariableSet() {
+        stringVariableSet = new HashSet<>();
+        compilationUnit.findAll(FieldDeclaration.class).forEach(field -> field.getVariables().forEach(variable -> {
+            // search all CLASS-LEVEL variables with "String" type
+            if (variable.getType().toString().equals("String")) {
+                stringVariableSet.add(variable.getNameAsString());
+                if (isVerboseMode) {
+                    System.out.println("====== New String variable loaded: " + variable.getNameAsString() + " ======");
+                }
+            }
+        }));
     }
 
     /**
-     * Simple visitor implementation for visiting MethodDeclaration nodes
+     * Functionality 2: check if the string literal appeared
      */
-    private class MethodVisitor extends VoidVisitorAdapter {
-        @Override
-        public void visit(MethodDeclaration md, Object arg) {
-            definedMethodSet.add(md.getNameAsString());
-            if (isVerboseMode) {
-                System.out.println("====== New method name loaded: " + md.getNameAsString() + " ======");
-            }
+    private boolean checkStringLiteralExprNode(Node node) {
+        String literal = ((StringLiteralExpr) node).asString();
+        if (stringLiteralSet.contains(literal)) {
+            System.out.println("====== duplicated string literal captured: " +
+                    "[\"" + literal + "\"] ======");
+            return false;
+        } else {
+            stringLiteralSet.add(literal);
+            return true;
         }
     }
 
@@ -175,5 +153,27 @@ class MyBugFinder {
             return false;
         }
         return true;    // if not define clone() method, directly return true
+    }
+
+    /**
+     * Initialization function for loading definedMethodSet
+     */
+    private void loadDefinedMethodSet() {
+        definedMethodSet = new HashSet<>();
+        // visit and print the methods names
+        new MethodVisitor().visit(compilationUnit, null);
+    }
+
+    /**
+     * Simple visitor implementation for visiting MethodDeclaration nodes
+     */
+    private class MethodVisitor extends VoidVisitorAdapter {
+        @Override
+        public void visit(MethodDeclaration md, Object arg) {
+            definedMethodSet.add(md.getNameAsString());
+            if (isVerboseMode) {
+                System.out.println("====== New method name loaded: " + md.getNameAsString() + " ======");
+            }
+        }
     }
 }
