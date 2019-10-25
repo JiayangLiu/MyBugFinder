@@ -54,46 +54,30 @@ class MyBugFinder {
         stringLiteralSet = new HashSet<>();
         AtomicBoolean goodStringComparison = new AtomicBoolean();    // to be updated in lambda
         goodStringComparison.setOpaque(true);
-        compilationUnit.findAll(FieldDeclaration.class).forEach(field -> field.getVariables().forEach(variable -> {
-            if (variable.getType().toString().equals("String")) {
-                Optional<Expression> expression = variable.getInitializer();
-                Expression expr = expression.get();
-                if (expr instanceof StringLiteralExpr) {
-                    if (!checkStringLiteralExprNode(expr)) {
-                        goodStringComparison.setOpaque(false);
+
+        compilationUnit.findAll(FieldDeclaration.class).forEach(field -> field.getVariables().
+                forEach(variable -> variable.walk(node -> {
+                    if (node instanceof StringLiteralExpr) {
+                        if (!checkStringLiteralExprNode(node)) {
+                            goodStringComparison.setOpaque(false);
+                        }
                     }
+        })));
+
+        compilationUnit.findAll(MethodDeclaration.class).forEach(method -> method.walk(node -> {
+            if (node instanceof StringLiteralExpr) {
+                if (!checkStringLiteralExprNode(node)) {
+                    goodStringComparison.setOpaque(false);
                 }
             }
         }));
 
-        compilationUnit.findAll(MethodDeclaration.class).forEach(methodDeclaration -> {
-            if (!checkMethod(methodDeclaration)) {
-                goodStringComparison.setOpaque(false);
-            }
-        });
-
         return goodStringComparison.getOpaque();
     }
 
-    private boolean checkMethod(Node node) {
-        if (node == null || node.getChildNodes() == null) {
-            return true;
-        }
-        if (node instanceof StringLiteralExpr) {
-            return checkStringLiteralExprNode(node);
-        }
-        else {
-            AtomicBoolean goodStringComparison = new AtomicBoolean();    // to be updated in lambda
-            goodStringComparison.setOpaque(true);
-            node.getChildNodes().forEach(child -> {
-                if (!checkMethod(child)) {
-                    goodStringComparison.setOpaque(false);
-                }
-            });
-            return goodStringComparison.getOpaque();
-        }
-    }
-
+    /**
+     * Check if the string literal appeared
+     */
     private boolean checkStringLiteralExprNode(Node node) {
         String literal = ((StringLiteralExpr) node).asString();
         if (stringLiteralSet.contains(literal)) {
