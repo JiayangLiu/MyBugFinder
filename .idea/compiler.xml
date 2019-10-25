@@ -9,8 +9,5 @@
         <module name="MyBugFinder" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="MyBugFinder" target="9" />
-    </bytecodeTargetLevel>
   </component>
 </project>
