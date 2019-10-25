@@ -16,17 +16,17 @@ public class MyBugFinderTest {
     public void detectBadStringComparisonTest() throws Exception {
         // test "=="
         String testPatternPath_1_1 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpattern1-1.java");
-        myBugFinder.setSourceCode(testPatternPath_1_1);
+        myBugFinder.setSourceCode(testPatternPath_1_1, true);
         assertFalse(myBugFinder.detectBadStringComparison());
 
         // test "!="
         String testPatternPath_1_2 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpattern1-2.java");
-        myBugFinder.setSourceCode(testPatternPath_1_2);
+        myBugFinder.setSourceCode(testPatternPath_1_2, true);
         assertFalse(myBugFinder.detectBadStringComparison());
 
         // test ".equlas"
         String testPatternPath_1_3 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpattern1-3.java");
-        myBugFinder.setSourceCode(testPatternPath_1_3);
+        myBugFinder.setSourceCode(testPatternPath_1_3, true);
         assertTrue(myBugFinder.detectBadStringComparison());
     }
 
@@ -34,17 +34,17 @@ public class MyBugFinderTest {
     public void implementsCloneableWhenDefinesCloneTest() throws Exception {
         // test "defines clone() without any interface implemented"
         String testPatternPath_EC_1 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpatternEC-1.java");
-        myBugFinder.setSourceCode(testPatternPath_EC_1);
+        myBugFinder.setSourceCode(testPatternPath_EC_1, true);
         assertFalse(myBugFinder.implementsCloneableWhenDefinesClone());
 
         // test "defines clone() but not implements Cloneable"
         String testPatternPath_EC_2 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpatternEC-2.java");
-        myBugFinder.setSourceCode(testPatternPath_EC_2);
+        myBugFinder.setSourceCode(testPatternPath_EC_2, true);
         assertFalse(myBugFinder.implementsCloneableWhenDefinesClone());
 
         // test "defines clone() and implements Cloneable"
         String testPatternPath_EC_3 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpatternEC-3.java");
-        myBugFinder.setSourceCode(testPatternPath_EC_3);
+        myBugFinder.setSourceCode(testPatternPath_EC_3, true);
         assertTrue(myBugFinder.implementsCloneableWhenDefinesClone());
     }
 }
