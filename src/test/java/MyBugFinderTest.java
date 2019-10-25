@@ -28,6 +28,21 @@ public class MyBugFinderTest {
         String testPatternPath_1_3 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpattern1-3.java");
         myBugFinder.setSourceCode(testPatternPath_1_3, true);
         assertTrue(myBugFinder.detectBadStringComparison());
+
+        // test "multiple global string variable with duplicated value"
+        String testPatternPath_2_1 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpattern2-1.java");
+        myBugFinder.setSourceCode(testPatternPath_2_1,true);
+        assertFalse(myBugFinder.checkStringLiteral());
+
+        // test "multiple global and local string variable with duplicated value"
+        String testPatternPath_2_2 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpattern2-2.java");
+        myBugFinder.setSourceCode(testPatternPath_2_2,true);
+        assertFalse(myBugFinder.checkStringLiteral());
+
+        // test "single string value"
+        String testPatternPath_2_3 = new File("").getAbsolutePath().concat("/src/test/java/testpatterns/testpattern2-3.java");
+        myBugFinder.setSourceCode(testPatternPath_2_3,true);
+        assertTrue(myBugFinder.checkStringLiteral());
     }
 
     @org.junit.Test

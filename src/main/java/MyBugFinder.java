@@ -1,17 +1,20 @@
 import com.github.javaparser.StaticJavaParser;
 import com.github.javaparser.ast.CompilationUnit;
-import com.github.javaparser.ast.body.BodyDeclaration;
-import com.github.javaparser.ast.body.ClassOrInterfaceDeclaration;
-import com.github.javaparser.ast.body.FieldDeclaration;
-import com.github.javaparser.ast.body.MethodDeclaration;
-import com.github.javaparser.ast.expr.BinaryExpr;
+import com.github.javaparser.ast.DataKey;
+import com.github.javaparser.ast.Node;
+import com.github.javaparser.ast.body.*;
+import com.github.javaparser.ast.expr.*;
+import com.github.javaparser.ast.stmt.BlockStmt;
+import com.github.javaparser.ast.stmt.ExpressionStmt;
 import com.github.javaparser.ast.type.ClassOrInterfaceType;
+import com.github.javaparser.ast.type.VoidType;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import com.github.javaparser.printer.YamlPrinter;
 
 import java.io.File;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -23,6 +26,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 class MyBugFinder {
     private static Set<String> stringVariableSet;
     private static Set<String> definedMethodSet;
+    private static Set<String> stringLiteralSet;
     private static CompilationUnit compilationUnit;
     private static boolean isVerboseMode;
 
@@ -41,6 +45,49 @@ class MyBugFinder {
         }
         loadStringVariableSet();
         loadDefinedMethodSet();
+    }
+
+    /**
+     * Initialization function for loading stringLiteralSet
+     */
+    boolean checkStringLiteral() {
+        stringLiteralSet = new HashSet<>();
+        AtomicBoolean goodStringComparison = new AtomicBoolean();    // to be updated in lambda
+        goodStringComparison.setOpaque(true);
+
+        compilationUnit.findAll(FieldDeclaration.class).forEach(field -> field.getVariables().
+                forEach(variable -> variable.walk(node -> {
+                    if (node instanceof StringLiteralExpr) {
+                        if (!checkStringLiteralExprNode(node)) {
+                            goodStringComparison.setOpaque(false);
+                        }
+                    }
+        })));
+
+        compilationUnit.findAll(MethodDeclaration.class).forEach(method -> method.walk(node -> {
+            if (node instanceof StringLiteralExpr) {
+                if (!checkStringLiteralExprNode(node)) {
+                    goodStringComparison.setOpaque(false);
+                }
+            }
+        }));
+
+        return goodStringComparison.getOpaque();
+    }
+
+    /**
+     * Check if the string literal appeared
+     */
+    private boolean checkStringLiteralExprNode(Node node) {
+        String literal = ((StringLiteralExpr) node).asString();
+        if (stringLiteralSet.contains(literal)) {
+            System.out.println("====== duplicated string literal captured: " +
+                    "[\"" + literal + "\"] ======");
+            return false;
+        } else {
+            stringLiteralSet.add(literal);
+            return true;
+        }
     }
 
     /**

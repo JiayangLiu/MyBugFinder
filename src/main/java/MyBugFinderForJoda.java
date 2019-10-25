@@ -26,7 +26,7 @@ public class MyBugFinderForJoda {
     private static void findBugsInJoda() throws Exception {
         MyBugFinder myBugFinder = new MyBugFinder();
         javaFilesPathList = new ArrayList<>();
-        getJavaFilesList(new File("").getAbsolutePath().concat("/src/main/java/JodaFiles/JodaTime-pre-abstract"));
+        getJavaFilesList(new File("").getAbsolutePath().concat("/src/main/resourse/JodaFiles/JodaTime-pre-abstract"));
 
         // analyze each java file one by one
         for (String javaFilesPath : javaFilesPathList) {
@@ -34,6 +34,7 @@ public class MyBugFinderForJoda {
             myBugFinder.setSourceCode(javaFilesPath, false);
             myBugFinder.detectBadStringComparison();
             myBugFinder.implementsCloneableWhenDefinesClone();
+            myBugFinder.checkStringLiteral();
         }
     }
 
