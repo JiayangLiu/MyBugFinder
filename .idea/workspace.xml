@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b32eea35-486e-4d1a-9efe-adc057ff0915" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/.cvsignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/RELEASE-NOTES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/ToDo.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/build.properties.sample" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/checkstyle.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/maven.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/project.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/conf/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/example/org/joda/example/time/AgeCalculator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/example/org/joda/example/time/DateTimeBrowser.README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/example/org/joda/example/time/DateTimeBrowser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/example/org/joda/example/time/DateTimeFile.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/example/org/joda/example/time/DateTimePerformance.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/example/org/joda/example/time/Examples.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/AbstractDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/AbstractDuration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/AbstractInstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/AbstractInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/AbstractPartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/AbstractPeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/Chronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/DateMidnight.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/DateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/DateTimeComparator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/DateTimeConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/DateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/DateTimeUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/DateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/Duration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/DurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/Instant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/Interval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/JodaTimePermission.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/MutableDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/MutableInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/MutablePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/Period.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/PeriodType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/ReadWritableDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/ReadWritableInstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/ReadWritableInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/ReadWritablePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/ReadableDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/ReadableDuration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/ReadableInstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/ReadableInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/ReadablePartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/ReadablePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/TimeOfDay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/YearMonthDay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/AbstractChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/AbstractGJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/AssembledChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/BuddhistChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/BuddhistEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/CopticChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/CopticDayOfMonthDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/CopticEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/CopticMonthOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/CopticYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJDayOfMonthDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJDayOfWeekDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJDayOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJLocaleSymbols.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJMonthOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJWeekOfWeekyearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJWeekyearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GJYearOfEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/GregorianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/ISOChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/JulianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/LenientChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/LimitChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/StrictChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/ZonedChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/chrono/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/AbstractConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/CalendarConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/Converter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/ConverterManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/ConverterSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/DateConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/DurationConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/InstantConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/IntervalConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/LongConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/NullConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/PeriodConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/ReadableDurationConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/ReadableInstantConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/ReadableIntervalConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/ReadablePeriodConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/StringConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/convert/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/BaseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/BaseDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/DecoratedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/DecoratedDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/DelegatedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/DelegatedDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/DividedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/FieldUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/ImpreciseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/LenientDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/MillisDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/NonZeroDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/OffsetDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/PreciseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/PreciseDurationDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/PreciseDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/RemainderDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/ScaledDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/StrictDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/UnsupportedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/UnsupportedDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/field/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/AbstractDateTimeFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/AbstractPeriodFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/DateTimeFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/DateTimeFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/DateTimeFormatterBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/DateTimeParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/DateTimeParserBucket.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/DateTimePrinter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/FormatUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/ISODateTimeFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/ISOPeriodFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/PeriodFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/PeriodFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/PeriodFormatterBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/PeriodParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/PeriodPrinter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/format/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/overview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/property/AbstractPartialFieldProperty.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/property/AbstractReadableInstantFieldProperty.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/property/ReadWritableInstantFieldProperty.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/property/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/CachedDateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/DateTimeZoneBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/DefaultNameProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/FixedDateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/NameProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/Provider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/UTCProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/ZoneInfoCompiler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/ZoneInfoProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/Readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/africa" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/antarctica" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/asia" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/australasia" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/backward" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/etcetera" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/europe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/northamerica" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/pacificnew" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/solar87" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/solar88" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/solar89" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/southamerica" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/java/org/joda/time/tz/src/systemv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/AbstractTestDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/BulkTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/TestBuddhistChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/buddhist/TestBuddhistEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/AbstractTestGJDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJClockhourOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJClockhourOfHalfdayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJDayOfMonthDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJDayOfWeekDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJDayOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJHalfdayOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJHourOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJHourOfHalfdayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJMillisOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJMillisOfSecondDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJMinuteOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJMinuteOfHourDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJMonthOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJSecondOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJSecondOfMinuteDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJYearOfCenturyDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestGJYearOfEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/gj/TestSuiteGJ.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOClockhourOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOClockhourOfHalfdayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISODayOfMonthDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISODayOfWeekDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISODayOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOHalfdayOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOHourOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOHourOfHalfdayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOMillisOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOMillisOfSecondDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOMinuteOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOMinuteOfHourDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOMonthOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOSecondOfDayDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestISOSecondOfMinuteDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/test/time/iso/TestSuiteISO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/ClassLoadTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/MockNullZoneChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/MockPartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestAllPackages.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDateMidnight_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDateMidnight_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDateMidnight_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDateTimeComparator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDateTimeConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDateTimeUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDateTime_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDateTime_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDateTime_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDuration_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestDuration_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestInstant_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestInstant_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestInterval_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestInterval_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestMutableDateTime_Adds.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestMutableDateTime_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestMutableDateTime_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestMutableDateTime_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestMutableDateTime_Sets.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestMutableInterval_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestMutableInterval_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestMutablePeriod_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestMutablePeriod_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestMutablePeriod_Updates.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestParseISO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestPeriodType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestPeriod_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestPeriod_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestTimeOfDay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/TestYearMonthDay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/MainTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestGJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestGJDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestGJDayOfMonthField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestGJDayOfWeekField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestGJDayOfYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestGJMonthOfYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestGJWeekOfWeekyearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestGJWeekyearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestGJYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestGregorianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestJulianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestJulianDayOfMonthField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestJulianMonthOfYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestJulianWeekyearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/chrono/gj/TestJulianYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/MockBadChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/MockUnknownCalendar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/MockUnknownTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/MockZeroNullIntegerConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestCalendarConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestConverterManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestConverterSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestDateConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestLongConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestNullConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestReadableDurationConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestReadableInstantConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestReadableIntervalConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestReadablePeriodConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/convert/TestStringConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/tz/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/src/test/org/joda/time/tz/TestUTCProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/xdocs/cal_gj.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/xdocs/cal_iso.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/xdocs/faq.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/xdocs/field.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/xdocs/images/joda.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/xdocs/images/jodatime.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/xdocs/index.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/xdocs/navigation.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/xdocs/tasks.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/JodaTime-pre-abstract/xdocs/userguide.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/checkoutlist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/commitinfo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/config" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/cvswrappers" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/editinfo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/loginfo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/modules" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/notify" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/rcsinfo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/taginfo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/CVSROOT/verifymsg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/.cvsignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/NOTICE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/RELEASE-NOTES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/ToDo.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/checkstyle.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/maven.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/project.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/.cvsignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/conf/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/example/org/joda/example/time/AgeCalculator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/example/org/joda/example/time/DateTimeBrowser.README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/example/org/joda/example/time/DateTimeBrowser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/example/org/joda/example/time/DateTimeFile.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/example/org/joda/example/time/DateTimePerformance.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/example/org/joda/example/time/Examples.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/example/org/joda/example/time/TimeZoneTable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/Chronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/DateMidnight.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/DateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/DateTimeComparator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/DateTimeConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/DateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/DateTimeFieldType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/DateTimeUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/DateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/Duration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/DurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/DurationFieldType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/Instant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/Interval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/JodaTimePermission.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/MutableDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/MutableInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/MutablePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/Period.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/PeriodType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/ReadWritableDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/ReadWritableInstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/ReadWritableInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/ReadWritablePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/ReadableDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/ReadableDuration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/ReadableInstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/ReadableInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/ReadablePartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/ReadablePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/TimeOfDay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/YearMonthDay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/AbstractDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/AbstractDuration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/AbstractInstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/AbstractInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/AbstractPartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/AbstractPeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/BaseDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/BaseDuration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/BaseInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/BasePartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/BasePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/base/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/AssembledChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/BaseChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/BaseGJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/BuddhistChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/CopticChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/CopticDayOfMonthDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/CopticEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/CopticMonthOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/CopticYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJDayOfMonthDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJDayOfWeekDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJDayOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJLocaleSymbols.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJMonthOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJWeekOfWeekyearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJWeekyearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GJYearOfEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/GregorianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/ISOChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/JulianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/LenientChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/LimitChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/StrictChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/ThaiBuddhistEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/ZonedChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/chrono/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/AbstractConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/CalendarConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/Converter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/ConverterManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/ConverterSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/DateConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/DurationConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/InstantConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/IntervalConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/LongConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/NullConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/PartialConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/PeriodConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/ReadableDurationConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/ReadableInstantConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/ReadableIntervalConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/ReadablePartialConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/ReadablePeriodConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/StringConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/convert/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/AbstractPartialFieldProperty.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/AbstractReadableInstantFieldProperty.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/BaseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/BaseDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/DecoratedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/DecoratedDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/DelegatedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/DelegatedDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/DividedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/FieldUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/ImpreciseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/LenientDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/MillisDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/OffsetDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/PreciseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/PreciseDurationDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/PreciseDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/RemainderDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/ScaledDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/SkipDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/SkipUndoDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/StrictDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/UnsupportedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/UnsupportedDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/ZeroIsMaxDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/field/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/DateTimeFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/DateTimeFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/DateTimeFormatterBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/DateTimeParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/DateTimeParserBucket.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/DateTimePrinter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/FormatUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/ISODateTimeFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/ISOPeriodFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/PeriodFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/PeriodFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/PeriodFormatterBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/PeriodParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/PeriodPrinter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/format/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/overview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/CachedDateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/DateTimeZoneBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/DefaultNameProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/FixedDateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/NameProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/Provider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/UTCProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/ZoneInfoCompiler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/ZoneInfoProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/Readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/africa" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/antarctica" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/asia" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/australasia" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/backward" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/etcetera" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/europe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/northamerica" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/pacificnew" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/solar87" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/solar88" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/solar89" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/southamerica" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/java/org/joda/time/tz/src/systemv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/ClassLoadTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/MockNullZoneChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/MockPartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestAbstractPartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestAllPackages.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestBasePartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateMidnight_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateMidnight_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateMidnight_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateTimeComparator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateTimeConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateTimeFieldType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateTimeUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateTime_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateTime_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDateTime_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDurationFieldType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDuration_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestDuration_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestInstant_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestInstant_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestInterval_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestInterval_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutableDateTime_Adds.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutableDateTime_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutableDateTime_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutableDateTime_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutableDateTime_Sets.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutableInterval_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutableInterval_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutableInterval_Updates.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutablePeriod_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutablePeriod_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestMutablePeriod_Updates.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestParseISO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestPeriodType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestPeriod_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestPeriod_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestTimeOfDay_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestTimeOfDay_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestTimeOfDay_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestYearMonthDay_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestYearMonthDay_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/TestYearMonthDay_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/TestBuddhistChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/TestCopticChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/TestGJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/TestGregorianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/TestISOChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/TestJulianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/MainTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestGJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestGJDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestGJDayOfMonthField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestGJDayOfWeekField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestGJDayOfYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestGJMonthOfYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestGJWeekOfWeekyearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestGJWeekyearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestGJYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestGregorianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestJulianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestJulianDayOfMonthField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestJulianMonthOfYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestJulianWeekyearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/chrono/gj/TestJulianYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/MockBadChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/MockUnknownCalendar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/MockUnknownTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/MockZeroNullIntegerConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestCalendarConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestConverterManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestConverterSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestDateConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestLongConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestNullConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestReadableDurationConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestReadableInstantConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestReadableIntervalConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestReadablePartialConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestReadablePeriodConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/convert/TestStringConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/field/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/field/TestBaseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/field/TestMillisDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/field/TestOffsetDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/field/TestPreciseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/field/TestPreciseDurationDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/field/TestPreciseDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/field/TestScaledDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestDateTimeFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestDateTimeFormatStyle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestDateTimeFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestISODateTimeFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestISOPeriodFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestISOPeriodFormatParsing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestPeriodFormatParsing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestPeriodFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestPeriodFormatterBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/format/TestTextFields.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/tz/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/tz/TestBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/tz/TestCompiler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/src/test/org/joda/time/tz/TestUTCProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/cal_buddhist.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/cal_coptic.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/cal_gj.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/cal_gregorian.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/cal_iso.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/cal_julian.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/faq.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/field.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/images/joda.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/images/jodatime.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/index.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/installation.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/key_chronology.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/key_duration.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/key_instant.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/key_interval.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/key_partial.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/key_period.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/navigation.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/quickstart.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/stylesheets/maven-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/tasks.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/timezones.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/upgradeto099.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/upgradeto100.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-1.0/JodaTime/xdocs/userguide.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/.classpath" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/.project" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/NOTICE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/RELEASE-NOTES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/ToDo.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/checkstyle.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/conf/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/example/org/joda/example/time/AgeCalculator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/example/org/joda/example/time/DateTimeBrowser.README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/example/org/joda/example/time/DateTimeBrowser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/example/org/joda/example/time/DateTimeFile.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/example/org/joda/example/time/DateTimePerformance.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/example/org/joda/example/time/Examples.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/example/org/joda/example/time/TimeZoneTable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/assembly/dist.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Chronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/DateMidnight.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/DateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/DateTimeComparator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/DateTimeConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/DateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/DateTimeFieldType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/DateTimeUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/DateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Days.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Duration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/DurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/DurationFieldType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Hours.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/IllegalFieldValueException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Instant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Interval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/JodaTimePermission.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/LocalDate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/LocalDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/LocalTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Minutes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/MonthDay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Months.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/MutableDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/MutableInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/MutablePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Partial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Period.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/PeriodType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/ReadWritableDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/ReadWritableInstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/ReadWritableInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/ReadWritablePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/ReadableDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/ReadableDuration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/ReadableInstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/ReadableInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/ReadablePartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/ReadablePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Seconds.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/TimeOfDay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Weeks.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/YearMonth.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/YearMonthDay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/Years.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/AbstractDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/AbstractDuration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/AbstractInstant.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/AbstractInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/AbstractPartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/AbstractPeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/BaseDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/BaseDuration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/BaseInterval.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/BaseLocal.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/BasePartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/BasePeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/BaseSingleFieldPeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/base/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/AssembledChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BaseChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BasicChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BasicDayOfMonthDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BasicDayOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BasicFixedMonthChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BasicGJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BasicSingleEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BasicWeekyearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/BuddhistChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/CopticChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/EthiopicChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/GJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/GJDayOfWeekDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/GJEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/GJLocaleSymbols.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/GJMonthOfYearDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/GJYearOfEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/GregorianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/ISOChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/IslamicChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/JulianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/LenientChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/LimitChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/StrictChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/ZonedChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/chrono/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/AbstractConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/CalendarConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/Converter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/ConverterManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/ConverterSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/DateConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/DurationConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/InstantConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/IntervalConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/LongConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/NullConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/PartialConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/PeriodConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/ReadableDurationConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/ReadableInstantConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/ReadableIntervalConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/ReadablePartialConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/ReadablePeriodConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/StringConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/convert/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/AbstractPartialFieldProperty.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/AbstractReadableInstantFieldProperty.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/BaseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/BaseDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/DecoratedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/DecoratedDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/DelegatedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/DelegatedDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/DividedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/FieldUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/LenientDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/MillisDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/OffsetDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/PreciseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/PreciseDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/RemainderDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/ScaledDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/SkipDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/SkipUndoDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/StrictDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/UnsupportedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/UnsupportedDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/field/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/DateTimeFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/DateTimeFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/DateTimeFormatterBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/DateTimeParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/DateTimeParserBucket.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/DateTimePrinter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/FormatUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/ISODateTimeFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/ISOPeriodFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/PeriodFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/PeriodFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/PeriodFormatterBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/PeriodParser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/PeriodPrinter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/messages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/messages_de.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/messages_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/messages_fr.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/messages_nl.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/messages_pt.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/format/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/overview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/CachedDateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/DefaultNameProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/FixedDateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/NameProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/Provider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/UTCProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/ZoneInfoProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/Readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/africa" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/antarctica" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/asia" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/australasia" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/backward" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/etcetera" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/europe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/northamerica" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/pacificnew" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/southamerica" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/main/java/org/joda/time/tz/src/systemv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/resources/css/site.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/resources/images/joda.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/resources/images/jodatime.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/site.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/cal_buddhist.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/cal_coptic.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/cal_ethiopic.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/cal_gj.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/cal_gregorian.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/cal_islamic.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/cal_iso.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/cal_julian.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/faq.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/field.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/index.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/installation.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/key_chronology.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/key_duration.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/key_instant.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/key_interval.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/key_partial.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/key_period.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/privacy.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/quickstart.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/related.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/tasks.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/timezones.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/tz_update.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto099.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto100.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto110.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto120.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto121.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto130.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto140.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto150.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto151.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto152.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto160.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto161.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto162.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/upgradeto200.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/site/xdoc/userguide.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/ClassLoadTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/MockNullZoneChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/MockPartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/MockZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestAbstractPartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestAllPackages.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestBasePartial.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestBaseSingleFieldPeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateMidnight_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateMidnight_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateMidnight_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateTimeComparator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateTimeConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateTimeFieldType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateTimeUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateTimeZoneCutover.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateTime_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateTime_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDateTime_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDays.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDurationFieldType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDuration_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestDuration_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestHours.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestIllegalFieldValueException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestInstant_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestInstant_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestInterval_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestInterval_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestLocalDateTime_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestLocalDateTime_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestLocalDateTime_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestLocalDate_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestLocalDate_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestLocalDate_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestLocalTime_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestLocalTime_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestLocalTime_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMinutes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMonthDay_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMonthDay_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMonthDay_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMonths.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutableDateTime_Adds.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutableDateTime_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutableDateTime_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutableDateTime_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutableDateTime_Sets.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutableInterval_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutableInterval_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutableInterval_Updates.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutablePeriod_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutablePeriod_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestMutablePeriod_Updates.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestPartial_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestPartial_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestPartial_Match.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestPartial_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestPeriodType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestPeriod_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestPeriod_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestSeconds.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestSerialization.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestStringConvert.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestTimeOfDay_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestTimeOfDay_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestTimeOfDay_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestWeeks.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestYearMonthDay_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestYearMonthDay_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestYearMonthDay_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestYearMonth_Basics.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestYearMonth_Constructors.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestYearMonth_Properties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/TestYears.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/TestBuddhistChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/TestCopticChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/TestEthiopicChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/TestGJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/TestGregorianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/TestISOChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/TestIslamicChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/TestJulianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/TestLenientChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/MainTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestGJChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestGJDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestGJDayOfMonthField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestGJDayOfWeekField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestGJDayOfYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestGJMonthOfYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestGJWeekOfWeekyearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestGJWeekyearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestGJYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestGregorianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestJulianChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestJulianDayOfMonthField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestJulianMonthOfYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestJulianWeekyearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/chrono/gj/TestJulianYearField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/MockBadChronology.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/MockUnknownCalendar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/MockUnknownTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/MockZeroNullIntegerConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestCalendarConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestConverterManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestConverterSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestDateConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestLongConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestNullConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestReadableDurationConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestReadableInstantConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestReadableIntervalConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestReadablePartialConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestReadablePeriodConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/convert/TestStringConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/field/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/field/TestBaseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/field/TestFieldUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/field/TestMillisDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/field/TestOffsetDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/field/TestPreciseDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/field/TestPreciseDurationDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/field/TestPreciseDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/field/TestScaledDurationField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/field/TestUnsupportedDateTimeField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestDateTimeFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestDateTimeFormatStyle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestDateTimeFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestDateTimeFormatterBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestISODateTimeFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestISODateTimeFormatParsing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestISODateTimeFormat_Fields.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestISOPeriodFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestISOPeriodFormatParsing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestPeriodFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestPeriodFormatParsing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestPeriodFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestPeriodFormatterBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/format/TestTextFields.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/tz/TestAll.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/tz/TestBuilder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/tz/TestCompiler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/tz/TestFixedDateTimeZone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/java/org/joda/time/tz/TestUTCProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/BuddhistChronology.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/CopticChronology.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/DateMidnight.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/DateMidnightProperty.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/DateTime.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/DateTimeFieldType.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/DateTimeProperty.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/DateTimeZone.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/DateTimeZoneUTC.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/DelegatedDurationField.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/Duration.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/DurationFieldType.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/GJChronology.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/GJChronologyChangedInternals.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/GregorianChronology.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/ISOChronology.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/Instant.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/JulianChronology.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/LocalDate.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/LocalDateBuddhist.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/LocalDateTime.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/LocalTime.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/MillisDurationField.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/MutableDateTime.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/MutableDateTimeProperty.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/PeriodType.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/TimeOfDay.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/TimeOfDayProperty.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/UnsupportedDateTimeField.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/UnsupportedDurationField.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/YearMonthDay.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JodaFiles/joda-time-2.0/src/test/resources/YearMonthDayProperty.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MyBugFinderForJoda.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyBugFinder.java" afterPath="$PROJECT_DIR$/src/main/java/MyBugFinder.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyBugFinderTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyBugFinderTest.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MyBugFinderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MyBugFinderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBugFinder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyBugFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-327">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/testpatterns/testpatternEC-2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testpatterns/TestPattern2_2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testpatterns/testpattern1-1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyBugFinder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testpatterns/testpattern2-2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testpatterns/testpattern2-1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testpatterns/testpattern2-3.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/MyBugFinderTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyBugFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBugFinder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBugFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBugFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBugFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBugFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBugFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBugFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBugFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBugFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testpatterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBugFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBugFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testpatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="testpattern2-1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MyBugFinderTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="MyBugFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MyBugFinder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyBugFinderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MyBugFinderTest.detectBadStringComparisonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MyBugFinder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyBugFinderTest" />
+      <option name="METHOD_NAME" value="detectBadStringComparisonTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MyBugFinderTest.implementsCloneableWhenDefinesCloneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MyBugFinder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyBugFinderTest" />
+      <option name="METHOD_NAME" value="implementsCloneableWhenDefinesCloneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MyBugFinderTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyBugFinderTest.detectBadStringComparisonTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyBugFinderTest.implementsCloneableWhenDefinesCloneTest" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyBugFinderTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyBugFinderTest.detectBadStringComparisonTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyBugFinderTest.implementsCloneableWhenDefinesCloneTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b32eea35-486e-4d1a-9efe-adc057ff0915" name="Default" comment="" />
+      <created>1571951012065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571951012065</updated>
+      <workItem from="1571951013417" duration="9369000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MyBugFinderTest - 2019.10.24 at 23h 29m 02s.xml">
+      <configuration name="MyBugFinderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBugFinderTest_detectBadStringComparisonTest - 2019.10.24 at 23h 01m 26s.xml">
+      <configuration name="MyBugFinderTest.detectBadStringComparisonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBugFinderTest_detectBadStringComparisonTest - 2019.10.24 at 23h 01m 47s.xml">
+      <configuration name="MyBugFinderTest.detectBadStringComparisonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBugFinderTest_detectBadStringComparisonTest - 2019.10.24 at 23h 10m 45s.xml">
+      <configuration name="MyBugFinderTest.detectBadStringComparisonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBugFinderTest_detectBadStringComparisonTest - 2019.10.24 at 23h 11m 09s.xml">
+      <configuration name="MyBugFinderTest.detectBadStringComparisonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBugFinderTest_detectBadStringComparisonTest - 2019.10.24 at 23h 12m 04s.xml">
+      <configuration name="MyBugFinderTest.detectBadStringComparisonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBugFinderTest_detectBadStringComparisonTest - 2019.10.24 at 23h 13m 39s.xml">
+      <configuration name="MyBugFinderTest.detectBadStringComparisonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBugFinderTest_detectBadStringComparisonTest - 2019.10.24 at 23h 14m 09s.xml">
+      <configuration name="MyBugFinderTest.detectBadStringComparisonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBugFinderTest_detectBadStringComparisonTest - 2019.10.24 at 23h 28m 57s.xml">
+      <configuration name="MyBugFinderTest.detectBadStringComparisonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBugFinderTest_implementsCloneableWhenDefinesCloneTest - 2019.10.24 at 23h 13m 34s.xml">
+      <configuration name="MyBugFinderTest.implementsCloneableWhenDefinesCloneTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9369000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="735" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5980551" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="EvoSuite" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testpatterns/testpatternEC-2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testpatterns/TestPattern2_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testpatterns/testpattern1-1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testpatterns/testpattern2-3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#119#120#0" expanded="false" />
+            <element signature="e#160#161#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testpatterns/testpattern2-2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testpatterns/testpattern2-1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyBugFinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyBugFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
