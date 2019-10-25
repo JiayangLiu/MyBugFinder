@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<title>org.joda.time package</title>
+<!--
+
+   Joda Software License, Version 1.0
+  
+  
+   Copyright (c) 2001-2004 Stephen Colebourne.
+   All rights reserved.
+  
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions
+   are met:
+  
+   1. Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+  
+   2. Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in
+      the documentation and/or other materials provided with the
+      distribution.
+  
+   3. The end-user documentation included with the redistribution,
+      if any, must include the following acknowledgment:
+         "This product includes software developed by the
+          Joda project (http://www.joda.org/)."
+      Alternately, this acknowledgment may appear in the software itself,
+      if and wherever such third-party acknowledgments normally appear.
+  
+   4. The name "Joda" must not be used to endorse or promote products
+      derived from this software without prior written permission. For
+      written permission, please contact licence@joda.org.
+  
+   5. Products derived from this software may not be called "Joda",
+      nor may "Joda" appear in their name, without prior written
+      permission of the Joda project.
+  
+   THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED
+   WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+   OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+   DISCLAIMED.  IN NO EVENT SHALL THE JODA AUTHORS OR THE PROJECT
+   CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+   SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+   LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+   USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+   ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+   OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+   OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+   SUCH DAMAGE.
+   ====================================================================
+  
+   This software consists of voluntary contributions made by many
+   individuals on behalf of the Joda project and was originally
+   created by Stephen Colebourne <scolebourne@joda.org>. For more
+   information on the Joda project, please see <http://www.joda.org/>.
+
+-->
+</head>
+<body>
+<p>
+Provides support for dates, times, time zones, durations, intervals, and
+partials. This package aims to fully replace the Java <code>Date</code>,
+<code>Calendar</code>, and <code>TimeZone</code> classes. This implementation
+covers both the Gregorian/Julian calendar system and the ISO8601
+standard. Additional calendar systems and extensions can be created as well.
+</p>
+<p>
+The ISO8601 standard is the international standard for dates, times, durations,
+and intervals. It defines text representations, the first day of the week as
+Monday, and the first week in a year as having a Thursday in it. This standard
+is being increasingly used in computer interchange and is the agreed format for
+XML. For most uses, the ISO standard is the same as Gregorian, and is thus the
+preferred format.
+</p>
+
+<h4>Interfaces</h4>
+<p>
+The main API concepts are defined by interfaces:
+</p>
+<ul>
+<li><code>ReadableInstant</code> - an instant in time
+<li><code>ReadableDateTime</code> - an instant in time with field accessors
+<li><code>ReadableDuration</code> - a duration broken down into fields
+<li><code>ReadableInterval</code> - a period of time between two instants
+</ul>
+<ul>
+<li><code>ReadWritableInstant</code> - an instant that can be modified
+<li><code>ReadWritableDateTime</code> - a datetime that can be modified
+<li><code>ReadWritableDuration</code> - a duration that can be modified
+<li><code>ReadWritableInterval</code> - an interval that can be modified
+</ul>
+<p>
+These define the public interface to dates, times, and durations. As with
+<code>java.util.Date</code> and <code>Calendar</code>, the design is
+millisecond based with an epoch of 1970-01-01. This should enable easy
+conversions.
+</p>
+
+<h4>Implementations</h4>
+<p>
+The basic implementation of the <code>ReadableInstant</code> interface is
+<code>Instant</code>. This is a simple immutable class that stores the
+millisecond value and integrates with Java Date and Calendar. If you are
+dealing with an instant in time but do not know, or do not want to specify,
+which calendar system it refers to, then you should use this class.
+</p>
+<p>
+The main implementation class for datetimes is the <code>DateTime</code> class.
+This implements the <code>ReadableDateTime</code> interface, providing
+convenient methods to access the fields of the datetime. Conversion methods
+allow integration with the Java Date and Calendar classes.
+</p>
+<p>
+Like <code>Instant</code>, <code>DateTime</code> is <i>immutable</i>, and it
+can be used safely in a multi-threaded environment. Most of the methods in
+<code>DateTime</code> are final, but the class itself is not. Subclasses of
+<code>DateTime</code> can actually be mutable, but they cannot alter the values
+returned by the standard <code>DateTime</code> or superclass methods.
+</p>
+<p>
+To be fully immutable <code>DateTime</code> would have to be final, but that
+prevents subclasses from adding convenient access methods. Choosing this design
+allows the flexibility of convenience, but at the risk of someone writing
+potentially mutable subclasses. (Note that the internal data values cannot be
+modified, so the "danger" posed is small.)
+</p>
+<p>
+The concrete implementations of the <code>ReadWritable...</code> interfaces are
+named the same as their immutable counterparts, but with a "Mutable"
+prefix. For example, <code>MutableDateTime</code> implements
+<code>ReadWritableDateTime</code>, making datetime editing easy.
+</p>
+
+<h4>User defined APIs</h4>
+<p>
+User defined methods should generally accept instants and durations specified
+by one of the interfaces. This allows the method to accept more types, and it
+clearly states what operations it requires. A method that declares an input
+parameter of type <code>ReadWritableDateTime</code> is declaring that the
+object will get updated.
+</p>
+<p>
+The interfaces that define read operations, like <code>ReadableDateTime</code>,
+only limit the allowed set of operations, but they do <i>not</i> guarantee that
+the object is immutable. Care must be taken when saving a parameter of this
+type. Calling a conversion method like <code>toDateTime</code> beforehand
+guarantees immutability of the saved object, but does not add any significant
+overhead if the object was already a <code>DateTime</code>.
+</p>
+<p>
+User defined methods that return instants or durations should generally declare
+a concrete return type, like <code>DateTime</code>. Again, the interfaces only
+define permitted operations. Since <code>DateTime</code> is guaranteed
+immutable, callers of the method know that the returned object can be safely
+shared and accessed by multiple threads.
+</p>
+
+<h4>Chronologies and Fields</h4>
+<p>
+In order to enable the package to be easily extended, each field of the
+datetime, such as the month, is calculated by an implementation of
+<code>DateTimeField</code>. Likewise, duration fields are calculated by
+specialized <code>DurationField</code> instances. If desired, users can write
+their own implementations to retrieve an unusual field from the millisecond
+value.
+</p>
+<p>
+The datetime and duration fields that together represent a calendar system are
+grouped into a <code>Chronology</code>. The chronology represents all the
+information to convert from a millisecond value to human understandable fields
+in a specific calendar system. Chronologies are provided for ISO and
+Gregorian/Julian (GJ). (ISO is in fact a special case of GJ).
+</p>
+<p>
+This design results in a low overhead on the date and time classes. The Java
+<code>Calendar</code> class performs poorly because it has many internal fields that are
+constantly kept in sync. This design only calculates fields when required,
+resulting in lightweight and simple date time classes.
+</p>
+
+<h4>Partials</h4>
+<p>
+Partials are like instants, except they do not completely specify a point in
+time. The main interface is <code>ReadablePartial</code>, and implementations
+include <code>TimeOfDay</code> (contains hour, minute, second, and millis) and
+<code>YearMonthDay</code>.
+</p>
+<p>
+The API of a partial is remarkably similar to an instant, however there are
+internal differences. <code>DateTime</code> and <code>Instant</code> store a
+long millisecond value internally and calculate field values on demand. The
+partial classes work the other way around, storing field values internally
+and providing a means to resolve to a millisecond value on demand.
+</p>
+<p>
+Since a partial does not represent a specific point in time, it must be
+<i>resolved</i> to create a full instant. For example, a <code>TimeOfDay</code>
+might represent 12:30. To convert to a <code>DateTime</code> requires the
+specification of a date, and is performed using the <code>resolve</code>
+methods of <code>ReadablePartial</code>. For example,
+<pre>
+    <code>new TimeOfDay("12:30").resolveDateTime(new DateTime("2004-06-07T06:00"));</code>
+</pre>
+equals
+<pre>
+    <code>new DateTime("2004-06-07T12:30");</code>
+</pre>
+</p>
+
+<h4>Formatting</h4>
+<p>
+Formatting is provided by the <code>format</code> subpackage. Comprehensive
+support is provided for outputting dates and times in multiple formats. A
+pattern similar to Java <code>SimpleDateFormat</code> can be used, but a more
+advanced programmatic technique is available.
+</p>
+
+<h4>General</h4>
+<p>
+This package is standalone and has no dependencies other than JDK 1.2.
+It is licenced under an Apache/BSD style licence.
+</p>
+</body>
+</html>

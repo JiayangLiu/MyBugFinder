@@ -28,19 +28,21 @@ class MyBugFinder {
     private static Set<String> definedMethodSet;
     private static Set<String> stringLiteralSet;
     private static CompilationUnit compilationUnit;
+    private static boolean isVerboseMode;
 
     /**
      * Set the source code path and JavaParser compilationUnit for later inspection
      * @param sourceCodePath path to the source code to be inspected by the MyBugFinder
      * @throws Exception capture FileNoFound error
      */
-    void setSourceCode(final String sourceCodePath) throws Exception {
+    void setSourceCode(final String sourceCodePath, final boolean isVerboseMode) throws Exception {
         compilationUnit = StaticJavaParser.parse(new File(sourceCodePath));
-
-        // print out the whole AST in YAML format
-        YamlPrinter printer = new YamlPrinter(true);
-        System.out.println(printer.output(compilationUnit));
-
+        MyBugFinder.isVerboseMode = isVerboseMode;
+        if (isVerboseMode) {
+            // print out the whole AST in YAML format
+            YamlPrinter printer = new YamlPrinter(true);
+            System.out.println(printer.output(compilationUnit));
+        }
         loadStringVariableSet();
         loadDefinedMethodSet();
     }
@@ -113,7 +115,9 @@ class MyBugFinder {
             // search all CLASS-LEVEL variables with "String" type
             if (variable.getType().toString().equals("String")) {
                 stringVariableSet.add(variable.getNameAsString());
-                System.out.println("====== New String variable loaded: " + variable.getNameAsString() + " ======");
+                if (isVerboseMode) {
+                    System.out.println("====== New String variable loaded: " + variable.getNameAsString() + " ======");
+                }
             }
         }));
     }
@@ -157,7 +161,9 @@ class MyBugFinder {
         @Override
         public void visit(MethodDeclaration md, Object arg) {
             definedMethodSet.add(md.getNameAsString());
-            System.out.println("====== New method name loaded: " + md.getNameAsString() + " ======");
+            if (isVerboseMode) {
+                System.out.println("====== New method name loaded: " + md.getNameAsString() + " ======");
+            }
         }
     }
 
@@ -174,11 +180,14 @@ class MyBugFinder {
             // check if "Cloneable" interface gets implemented
             for (ClassOrInterfaceType implementedInterface : implementedInterfaces) {
                 String implementedInterfaceName = implementedInterface.getNameAsString();
-                System.out.println("====== New interface found: " + implementedInterfaceName + " ======");
+                if (isVerboseMode) {
+                    System.out.println("====== New interface found: " + implementedInterfaceName + " ======");
+                }
                 if (implementedInterfaceName.equals("Cloneable")) {
                     return true;
                 }
             }
+            System.out.println("====== New NotImplementsCloneableWhenDefinesClone bug found ======");
             return false;
         }
         return true;    // if not define clone() method, directly return true
