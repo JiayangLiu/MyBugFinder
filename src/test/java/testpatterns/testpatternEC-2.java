@@ -4,3 +4,5 @@ class TestPatternEC_2 implements NotCloneable {
     	return new Object();
     }
 }
+
+interface NotCloneable{}
